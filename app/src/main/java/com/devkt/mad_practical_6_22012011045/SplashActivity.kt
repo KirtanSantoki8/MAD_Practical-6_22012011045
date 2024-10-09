@@ -12,8 +12,8 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class SplashActivity : AppCompatActivity(), Animation.AnimationListener {
-    lateinit var guniAnimation: AnimationDrawable
-    lateinit var tweenAnimation: Animation
+    private lateinit var guniAnimation: AnimationDrawable
+    private lateinit var tweenAnimation: Animation
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
